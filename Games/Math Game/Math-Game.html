@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Navbar.css">
+    <title>Math Game</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-brand">Math Game</div>
+        <ul class="navbar-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+<body>
+  <h1>Math Game</h1>
+  <button id="start-button" onclick="startGame()">Start Game</button>
+  <div id="game-container" class="hidden">
+    <div id="problem"></div>
+    <div id="options">
+      <button onclick="checkAnswer(this)"></button>
+      <button onclick="checkAnswer(this)"></button>
+      <button onclick="checkAnswer(this)"></button>
+    </div>
+    <div id="timer"></div><center>
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+  </div></center>
+  <div id="popup" class="hidden">
+    <p>😢 You Lost!</p>
+    <button onclick="restartGame()">Restart</button>
+    <button onclick="goToHome()">Home</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#F7971e, #ffd200);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px; /* slightly increased padding */
+    background-color: #333;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em; /* slightly larger font size */
+    color: white; /* white color */
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    display: inline;
+    margin-left: 15px;
+  }
+  
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+  }

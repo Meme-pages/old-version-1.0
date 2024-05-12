@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#F7971e, #ffd200);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px; /* slightly increased padding */
+    background-color: #333;
+}
+  
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em; /* slightly larger font size */
+    color: white; /* white color */
+}
+  
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.navbar-links li {
+    display: inline;
+    margin-left: 15px;
+}
+  
+.navbar-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+.option {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+.popup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
