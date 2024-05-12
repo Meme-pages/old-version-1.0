@@ -67,7 +67,7 @@ function restart() {
 }
 
 function goToHomePage() {
-    window.location.href = 'index.html';
+    window.location.href = 'https://meme-pages.github.io/Games/Games.html';
 }
 
 function render() {
